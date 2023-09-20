@@ -1,0 +1,80 @@
+body{
+  background-color: lightblue;
+}
+
+.App {
+    padding: 2% 10%;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+  font-weight: 800;
+  font-style: italic;
+  background-color: bisque;
+  box-shadow: 3px 3px 15px gray;
+}
+
+.forbtn{
+   height: 50px;
+}
+
+.addbtn{
+   float: right;
+}
+
+.btn{
+  color: aliceblue;
+  background-color: cadetblue;
+  border-radius: 15px;
+  min-width: 20%;
+  min-height: 35px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 15px gray;
+    background-color: blueviolet;
+}
+
+.StuData{
+  padding: 2%;
+  /* background-image: linear-gradient(red, rgb(38, 23, 23), blue); */
+}
+
+.table{
+   width: 100%;
+   text-align: center;
+   /* background-image: linear-gradient(red, green, blue); */
+   background-color: lightgrey;
+   box-shadow: 7px 9px 10px lightslategray;
+   min-height: 300px;
+}
+
+.editform{
+  width: 100%;
+  text-align: center;
+  font-size: larger;
+  font-weight: 600;
+  word-spacing: 20px;
+  line-height: 50px;
+}
+
+.heading{
+  text-align: center;
+  color: brown;
+  font-style: italic;
+}
+
+input{
+  min-width: 35%;
+  min-height: 25px;
+  border-radius: 10px;
+  background-color: rgb(242, 228, 228);
+  color: black;
+  font-weight: 600;
+  text-align: center;
+}
